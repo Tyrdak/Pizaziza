@@ -1,6 +1,6 @@
 <script setup>
 import Cards from '../layout/cards.vue';
-import { pizzas, incrementPizza } from "../../props/Pizza.vue";
+import { pizzas, incrementPizza } from "../../stores/pizza.js";
 </script>
 
 <template>

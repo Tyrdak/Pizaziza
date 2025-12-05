@@ -1,4 +1,3 @@
-<script>
 import { ref, computed } from "vue"
 
 // Liste des pizzas disponibles
@@ -96,7 +95,4 @@ export const cartItems = computed(() => {
 export const cartTotal = computed(() =>
   cartItems.value.reduce((sum, item) => sum + item.total, 0)
 )
-</script>
 
-<template>
-</template>

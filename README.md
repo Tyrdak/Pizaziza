@@ -1,38 +1,39 @@
 # Pizaziza
 
-This template should help get you started developing with Vue 3 in Vite.
+Bienvenue sur **Pizaziza**, une application web moderne et minimaliste dédiée à la commande de pizzas artisanales. Ce projet met en avant mes compétences en javascript en DANIEL BALAVOINE.
 
-## Recommended IDE Setup
+## Fonctionnalités
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **La Carte** : Explorez notre sélection de pizzas inspirées des grands artistes italiens.
+- **Panier Dynamique** : Ajoutez, modifiez les quantités et visualisez le total de votre commande en temps réel.
+- **Design Minimaliste** : Une interface sobre, sans distraction, conçue pour le plaisir des yeux.
+- **L'Histoire** : Une page dédiée aux paroles de la chanson qui inspire notre nom (daniel le goat).
 
-## Recommended Browser Setup
+## Installation et Démarrage
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre machine.
 
-## Customize configuration
+1.  **Cloner le projet** (si ce n'est pas déjà fait) ou télécharger les sources.
+2.  **Installer les dépendances** :
+    ```bash
+    npm install
+    ```
+3.  **Lancer le serveur de développement** :
+    ```bash
+    npm start
+    ```
+    ou
+    ```bash
+    npm run dev
+    ```
+4.  Ouvrez votre navigateur sur l'URL indiquée (généralement `http://localhost:5173`).
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Technologies Utilisées
 
-## Project Setup
+- **Vue 3** : Framework JavaScript progressif.
+- **Vite** : Outil de build.
+- **Tailwind CSS** : Framework CSS utilitaire pour un design moderne et responsive.
+- **Vue Router** : Gestion du routage SPA (Single Page Application).
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+---
+*Pour goeffroy le meilleur intervenant de l'EPSI*

@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, useRouter } from "vue-router";
-import { cartItems, cartTotal, incrementPizza, decrementPizza, clearCart } from "../props/Pizza.vue";
+import { cartItems, cartTotal, incrementPizza, decrementPizza, clearCart } from "../stores/pizza.js";
 
 const router = useRouter();
 

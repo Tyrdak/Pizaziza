@@ -1,7 +1,7 @@
 <script setup>
 import { computed } from "vue";
 import { RouterLink } from "vue-router";
-import { cartItems } from "../../props/Pizza.vue";
+import { cartItems } from "../../stores/pizza.js";
 
 // On calcule le nombre total d'items juste pour le petit badge
 const cartCount = computed(() => {
